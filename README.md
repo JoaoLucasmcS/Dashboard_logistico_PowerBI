@@ -63,5 +63,5 @@ Para uma análise mais detalhada, foram criadas medidas personalizadas utilizand
 
 - `Dashboard.pbix`: Arquivo do Power BI com o dashboard completo.
 - `Dados/`: Diretório com as planilhas de dados utilizadas.
-- `Documentação/`: Documentos e relatórios sobre o projeto.
+
 
