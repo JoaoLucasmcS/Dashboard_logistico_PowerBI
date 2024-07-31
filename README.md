@@ -39,28 +39,10 @@ Utilizei um plano de fundo personalizado para criar um visual agradável e organ
   - Um **Gráfico de Indicador** que mostra a **Porcentagem de Entregas dentro do Prazo**.
   - Uma **Árvore Hierárquica** que começa com a **Receita** e detalha a contribuição de cada **Marca** e **Tipo de Veículo** para os resultados, permitindo uma análise aprofundada de como cada fator influencia o desempenho da empresa.
 
-## 🚀 Funcionalidades
-
-- **Visualizações Interativas**: Dashboards com gráficos de barras, colunas, funil, pizza, rosca, mapa e cartões, permitindo uma análise detalhada de métricas como receita, custos, lucro, KM rodados, número de viagens, regiões atendidas, e percentual de entregas atrasadas.
-- **Automatização com Power Query**: Aplicação de técnicas para transformar e limpar dados sem alterar a planilha original. As alterações podem ser aplicadas automaticamente com apenas um clique, facilitando a atualização constante dos dados.
-- **Medidas Personalizadas com DAX**: Criação de medidas utilizando funções como **SUM**, **AVERAGE**, **COUNT**, **COUNTROWS** e **CALCULATE**, para agregar e analisar os dados de forma eficiente.
-
 ## 🔧 Aprendizados no Power Query
 
 - **Manipulação de Dados**: Remoção de colunas, remoção de linhas em branco, divisão de colunas por delimitador, mesclagem de colunas, criação de colunas personalizadas, colunas com cálculo e colunas condicionais.
 - **Automatização e Eficiência**: A utilização do Power Query permite uma manipulação rápida e fácil dos dados sem alterar a planilha original. Além disso, quando a planilha original é alterada, as configurações podem ser reaplicadas com apenas um clique, ideal para automatizar processos.
-
-## 📈 Métricas e Indicadores
-
-No desenvolvimento do dashboard, levei em consideração a importância de começar com uma análise global e depois afunilar para detalhes específicos. As principais métricas e indicadores analisados incluem:
-
-- **Receita**
-- **Custos**
-- **Lucro**
-- **KM rodados**
-- **Quantidade de viagens**
-- **Regiões atendidas**
-- **Percentual de entregas atrasadas**
 
 ## 🧮 Medidas com DAX
 
@@ -83,6 +65,3 @@ Para uma análise mais detalhada, foram criadas medidas personalizadas utilizand
 - `Dados/`: Diretório com as planilhas de dados utilizadas.
 - `Documentação/`: Documentos e relatórios sobre o projeto.
 
-## 📜 Licença
-
-Este projeto é licenciado sob a [MIT License](LICENSE).
