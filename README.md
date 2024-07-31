@@ -20,7 +20,7 @@ Este projeto consiste em um dashboard interativo desenvolvido no Power BI para u
 
 ## Como Visualizar o Dashboard
 
-1. **Baixe o arquivo .pbix:** Clique no arquivo `Dashboard.pbix` neste repositório e, em seguida, clique em "view raw" para efetuar o download.
+1. **Baixe o arquivo .pbix:** Clique no arquivo `relatorioLogistico.pbix` neste repositório e, em seguida, clique em "view raw" para efetuar o download.
 2. **Abra o arquivo no Power BI Desktop:** Certifique-se de ter o Power BI Desktop instalado em sua máquina. Você pode baixá-lo [aqui](https://powerbi.microsoft.com/desktop/).
 
 ## Como Executar o Projeto
