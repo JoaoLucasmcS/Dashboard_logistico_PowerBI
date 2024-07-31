@@ -1,67 +1,52 @@
 # Dashboard de Logística com Power BI
 
-Bem-vindo ao repositório do **Dashboard de Logística**! Este projeto foi desenvolvido para uma empresa fictícia de logística utilizando **Power BI**. Durante o desenvolvimento, explorei funcionalidades do **Power Query** e criei visualizações impactantes para analisar métricas e indicadores essenciais para o setor de logística.
+## Descrição
 
-## 📊 Projeto
+Este projeto consiste em um dashboard interativo desenvolvido no Power BI para uma empresa fictícia de logística. O objetivo é fornecer insights detalhados sobre as operações logísticas, incluindo métricas como receita, lucro e desempenho das entregas. Utilizando uma variedade de gráficos e segmentações de dados, o dashboard permite uma análise abrangente e dinâmica das informações.
 
-O objetivo deste projeto é oferecer uma visão clara e detalhada das operações logísticas, utilizando um dashboard interativo que facilita a tomada de decisões estratégicas.
+## Funcionalidades
 
-### 🗂️ Estrutura dos Dados
+- **Cartões de Receita, Lucro, KM Rodados e Quantidade de Viagens:** Exibição dos principais indicadores de desempenho da empresa.
+- **Segmentação de Dados:** Permite ao usuário filtrar os resultados por Ano e Mês.
+- **Gráfico de Colunas:** Representação da Quantidade de Viagens por Mês.
+- **Gráfico de Indicador:** Mostra a Porcentagem de Entregas dentro do Prazo.
+- **Árvore Hierárquica:** Analisa como a Receita está relacionada com Marca e Tipo de Veículo.
 
-O dashboard foi construído a partir de uma planilha contendo as seguintes colunas:
+## Tecnologias Utilizadas
 
-- **Viagem**
-- **Data Pedido**
-- **Data Entrega**
-- **Prazo Entrega**
-- **Endereço**
-- **Marca**
-- **Veículo**
-- **Valor do Frete Líquido**
-- **KM**
-- **Tempo de Entrega**
-- **Status de Entrega**
-- **Cidade**
-- **Estado**
-- **Motorista**
-- **Custos**
+- **Power BI:** Ferramenta de visualização de dados utilizada para criar o dashboard.
+- **Power Query:** Utilizado para transformação e limpeza de dados.
+- **DAX (Data Analysis Expressions):** Utilizado para criação de medidas e cálculos personalizados.
 
-### 🖥️ Construção do Dashboard
+## Como Visualizar o Dashboard
 
-Utilizei um plano de fundo personalizado para criar um visual agradável e organizado, distribuindo os elementos de maneira intuitiva:
+1. **Baixe o arquivo .pbix:** Clique no arquivo `Dashboard.pbix` neste repositório e, em seguida, clique em "view raw" para efetuar o download.
+2. **Abra o arquivo no Power BI Desktop:** Certifique-se de ter o Power BI Desktop instalado em sua máquina. Você pode baixá-lo [aqui](https://powerbi.microsoft.com/desktop/).
 
-- **Parte Superior**:
-  - Quatro cartões exibindo **Receita**, **Lucro**, **KM Rodados** e **Quantidade de Viagens**, cada um com ícones representativos para tornar o dashboard mais atrativo visualmente.
-  - Ao lado dos cartões, foi adicionada uma segmentação de dados que permite ao usuário filtrar os resultados por **Ano** e **Mês**.
-  
-- **Parte Inferior**:
-  - Um **Gráfico de Colunas** representando a **Quantidade de Viagens por Mês**.
-  - Um **Gráfico de Indicador** que mostra a **Porcentagem de Entregas dentro do Prazo**.
-  - Uma **Árvore Hierárquica** que começa com a **Receita** e detalha a contribuição de cada **Marca** e **Tipo de Veículo** para os resultados, permitindo uma análise aprofundada de como cada fator influencia o desempenho da empresa.
+## Como Executar o Projeto
 
-## 🔧 Aprendizados no Power Query
+1. **Clone o repositório:**
 
-- **Manipulação de Dados**: Remoção de colunas, remoção de linhas em branco, divisão de colunas por delimitador, mesclagem de colunas, criação de colunas personalizadas, colunas com cálculo e colunas condicionais.
-- **Automatização e Eficiência**: A utilização do Power Query permite uma manipulação rápida e fácil dos dados sem alterar a planilha original. Além disso, quando a planilha original é alterada, as configurações podem ser reaplicadas com apenas um clique, ideal para automatizar processos.
+    ```bash
+    git clone https://github.com/seu-usuario/seu-repositorio.git
+    ```
 
-## 🧮 Medidas com DAX
+2. **Navegue até o diretório do projeto:**
 
-Para uma análise mais detalhada, foram criadas medidas personalizadas utilizando fórmulas DAX, incluindo:
+    ```bash
+    cd seu-repositorio
+    ```
 
-- **SUM**: Soma de valores.
-- **AVERAGE**: Média de valores.
-- **COUNT** e **COUNTROWS**: Contagem de itens.
-- **CALCULATE**: Cálculo de valores com filtros específicos.
+3. **Abra o arquivo .pbix no Power BI Desktop.**
 
-## 🛠️ Tecnologias Utilizadas
+## Contribuição
 
-- **Power BI**
-- **DAX (Data Analysis Expressions)**
-- **Power Query** (para transformação e limpeza de dados)
+Se você quiser contribuir com este projeto, fique à vontade para fazer um fork do repositório e enviar pull requests. Sugestões e melhorias são sempre bem-vindas.
 
-## 📂 Estrutura do Repositório
+## Contato
 
-- `Dashboard.pbix`: Arquivo do Power BI com o dashboard completo.
-- `Dados/`: Diretório com as planilhas de dados utilizadas.
+Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato.
 
-
+- **Nome:** João Marcolino
+- **E-mail:** joaolucasmcs04@gmail.com
+- **LinkedIn:** [João Marcolino](https://www.linkedin.com/in/joaolucasmcsilva/)
