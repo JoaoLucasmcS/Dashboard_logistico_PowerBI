@@ -50,3 +50,7 @@ Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em c
 - **Nome:** João Marcolino
 - **E-mail:** joaolucasmcs04@gmail.com
 - **LinkedIn:** [João Marcolino](https://www.linkedin.com/in/joaolucasmcsilva/)
+
+  ## Minhas Anotações no Notion :
+
+https://www.notion.so/Data-Analyst-SQL-3a052265395646db8a5a8831766daf28
